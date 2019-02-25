@@ -45,11 +45,12 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:text="Web Info"
+            android:id="@+id/button1WebInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button1WebInfo"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="WebInfo1"
+            android:text="Web Info" />
 
         <Button
             android:text="Add to Calendar"
@@ -59,15 +60,119 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Map"
+            android:id="@+id/button1map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button1map"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:elevation="0dp"
+            android:onClick="map"
+            android:text="Map" />
     </LinearLayout>
 
-    <TextView
+
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textViewStatus" />
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/image1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="	 Health, Wholeness, and Humanity: The Stewardship of Creation as if Matter Matters Tuesday, February 26, 2019, 7:30 – 8:30 p.m. Burns Wellness Center 249" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1WebInfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="WebInfo2"
+            android:text="Web Info" />
+
+        <Button
+            android:id="@+id/button1Calendar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addCalendar2"
+            android:text="Add to Calendar" />
+
+        <Button
+            android:id="@+id/button1map2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="map"
+            android:text="Map" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/image2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="	 The Francis X. Shea Memorial Lecture Presents Poet Jane Hirshfield Tuesday, March 5, 2019, 7:30 – 9:30 p.m. Mitchell Auditorium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1WebInfo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="WebInfo3"
+            android:text="Web Info" />
+
+        <Button
+            android:id="@+id/button1Calendar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addCalendar3"
+            android:text="Add to Calendar" />
+
+        <Button
+            android:id="@+id/button1map3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="map"
+            android:text="Map" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
